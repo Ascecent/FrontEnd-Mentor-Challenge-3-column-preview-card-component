@@ -32,7 +32,7 @@ Desktop
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/3column-preview-card-component-using-html-css-and-flexbox-0QvTlz_4k)
 - Live Site URL: [GitHub Pages](https://ascecent.github.io/FrontEnd-Mentor-Challenge-3-column-preview-card-component/)
 
 ## My process
