@@ -21,6 +21,8 @@ Implementation: font-family: 'Big Shoulders Display', cursive; */
 *{
     box-sizing: border-box;
     font-size: 15px;
+    margin: 0;
+    padding: 0;
 }
 
 /* Variables */
@@ -35,3 +37,94 @@ Implementation: font-family: 'Big Shoulders Display', cursive; */
     --paragraphs: hsla(0, 0%, 100%, 0.75);
     --back_headings_buttons: hsl(0, 0%, 95%);
 }
+
+/*===============
+== MAIN STYLES ==
+===============*/
+
+.cards{
+    height: 40rem;
+    margin: 10rem auto 0;
+    width: 80vw;
+    display: flex;
+}
+
+/* Items styles */
+
+.card_item{
+    padding: 4rem;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item1{
+    border-radius: 1rem 0 0 1rem;
+    background-color: var(--orange);
+}
+
+.item2{
+    background-color: var(--dark_cyan);
+}
+
+.item3{
+    border-radius: 0 1rem 1rem 0;
+    background-color: var(--darker_cyan);
+}
+
+.card_icon{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 5rem;
+    height: 5rem;
+}
+
+.icon1{
+    background-image: url(../images/icon-sedans.svg);
+}
+
+.icon2{
+    background-image: url(../images/icon-suvs.svg);
+}
+
+.icon3{
+    background-image: url(../images/icon-luxury.svg);
+}
+
+.card_item h2{
+    color: var(--back_headings_buttons);
+    font-size: 3rem;
+    font-family: 'Big Shoulders Display';
+    text-transform: uppercase;
+}
+
+.card_item p{
+    color: var(--paragraphs);
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.card_item button{
+    margin-top: 5rem;
+    font-family: 'Lexend Deca', sans-serif; 
+    padding: 1rem;
+    width: 50%;
+    border-radius: 2rem;
+    border: 0;
+}
+
+.item1 button{
+    color: var(--orange);
+}
+
+.item2 button{
+    color: var(--dark_cyan);
+}
+
+.item3 button{
+    color: var(--darker_cyan); 
+}
+
+
