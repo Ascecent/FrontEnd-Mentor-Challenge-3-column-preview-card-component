@@ -1,0 +1,37 @@
+/*=========
+== FONTS ==
+=========*/
+
+/* Imported from Google Fonts */
+
+/* Lexend Deca
+Implementation: font-family: 'Lexend Deca', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+/* Big Shoulders Display
+Implementation: font-family: 'Big Shoulders Display', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+/*===============
+== ROOT STYLES ==
+===============*/
+
+*{
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+/* Variables */
+
+:root{
+    /* Primary colors */
+    --orange: hsl(31, 77%, 52%);
+    --dark_cyan: hsl(184, 100%, 22%);
+    --darker_cyan: hsl(179, 100%, 13%);
+
+    /* Neutral colors */
+    --paragraphs: hsla(0, 0%, 100%, 0.75);
+    --back_headings_buttons: hsl(0, 0%, 95%);
+}
