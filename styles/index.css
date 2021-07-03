@@ -109,10 +109,23 @@ Implementation: font-family: 'Big Shoulders Display', cursive; */
 .card_item button{
     margin-top: 5rem;
     font-family: 'Lexend Deca', sans-serif; 
-    padding: 1rem;
-    width: 50%;
+    padding: 1rem 1.5rem;
+    width: 60%;
+    height: 3rem;
     border-radius: 2rem;
     border: 0;
+}
+
+.card_item button:hover{
+    cursor: pointer;
+    background-color: hsl(0, 1%, 86%);
+}
+
+.card_item button:active{
+    background-color: unset;
+    padding: .8rem 1.3rem;
+    border: .2rem solid white;
+    color: var(--back_headings_buttons);
 }
 
 .item1 button{
