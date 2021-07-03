@@ -180,3 +180,25 @@ footer *{
     }
 }
 
+/*========================
+== MOBILE MEDIA QUERIES ==
+========================*/
+
+@media screen and (max-width:600px) {
+    *{
+        font-size: 12px;
+    }
+
+    .cards{
+        width: 90vw;
+    }
+
+    .card_item h2{
+        font-size: 3.2rem;
+    }
+    .card_item p{
+        font-size: 1.3rem;
+    }
+}
+
+
